@@ -1,0 +1,39 @@
+/*Criando um estilo para o fundo */
+body{
+    background-image: url(../imagens/pexels-felix-mittermeier-956999.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Criando estilos na nossa página */
+h1{
+    font-size: 18px;
+    color: rgb(255, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cab_especial{
+    font-size: 16px;
+    font-weight: bolder;
+    color: #2fb3e3;
+}
+.formatacao_campos{
+    background-color: rgb(205, 217, 205);
+    font-size: 12px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+#cadastro{
+    color: white;
+    font-size: 14px;
+}
+/* criando um padrão de tamanho para os campos do formulário */
+.campo_nome{
+    width: 200px;
+    background-color: white;
+}
+
+.campo_email{
+    width: 300px;
+    background-color: white;
+}
